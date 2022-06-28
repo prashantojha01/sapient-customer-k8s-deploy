@@ -23,15 +23,15 @@ spec:
             name: mysql-deploy
         env: 
           - name: DB_HOSTNAME
-              value: 192.168.145.247
+            value: 192.168.145.247
           - name: DB_PORT
-              value: "3306"
+            value: "3306"
           - name: DB_NAME 
-              value: "studentdb"
+            value: "studentdb"
           - name: DB_USERNAME
-              value: "root"
+            value: "root"
           - name: DB_PASSWORD
-              valueFrom:
-                  secretKeyRef:
-                    name: mysql-password
-                    key: db-password 
+            valueFrom:
+                secretKeyRef:
+                  name: mysql-password
+                  key: db-password 
