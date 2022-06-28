@@ -23,7 +23,7 @@ spec:
             name: mysql-deploy
         env: 
           - name: DB_HOSTNAME
-              value: 192.168.145.244
+              value: 192.168.145.247
           - name: DB_PORT
               value: "3306"
           - name: DB_NAME 
