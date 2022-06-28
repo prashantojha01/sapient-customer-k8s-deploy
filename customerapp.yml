@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: customer-studentdb
-        image: prashantojha01/customer:v1
+        image: gopal1409/springboot-chat-app
         ports:
           - containerPort: 8080
             name: mysql-deploy
