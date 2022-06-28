@@ -38,6 +38,6 @@ spec:
         - name: mysql-pv
           persistentVolumeClaim:
               claimName: pv-claim-access
-        - name: usermgmt-dbscript
+        - name: mysql-db-script
           configMap: 
             name: db-query-init
